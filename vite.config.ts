@@ -24,6 +24,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/iSafe/',
   resolve: {
     alias: {
       // Alias @ to the src directory
